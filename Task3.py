@@ -94,7 +94,8 @@ tuple_val = tuple(list_val)
 print(list_val)
 print(tuple_val)
 
-# 13)
+Extra Task
+#1)
 list_x = [100, 200, 300, 400, 500, [1, 2, 3, 4, 5, [10, 20, 30, 40, 50], 6, 7, 8, 9], 600, 700, 800]
 
 # access list [1,2,3,4]
@@ -115,7 +116,7 @@ print(list_x[5][5][0])
 # Access list [ ]
 print(list_x)
 
-# 14)
+# 2)
 # is python 2.0 version
 # import sys
 # range_a = range(1,1000)
@@ -125,12 +126,12 @@ print(list_x)
 # print(type(range_a)
 # print(type(xrange_a))
 
-# 16)
+# 3)
 list_it = range(1, 1100)
 list_ans = [i for i in list_it if (i % 3 == 0) & (i % 2 == 0)]
 print(list_ans)
 
-# 17)
+# 4)
 string_val = input("Enter a string:")
 string_rev = string_val[::-1]
 for letter in string_rev:
@@ -139,14 +140,14 @@ letter in 'aeiou':
 print(letter)
 print("index is", string_rev.index(letter))
 
-# 18)
+# 5)
 string_it = "hello my name is abcde"
 list_words = [i for i in string_it.split()]
 print(list_words)
 list_evenlen = [i for i in list_words if len(i) % 2 == 0]
 print(list_evenlen)
 
-# 19)
+# 6)
 
 
 class py_solution:
@@ -161,7 +162,7 @@ class py_solution:
 print("index1=%d, index2=%d" % py_solution().twoSum((1, 2, 3, 4, 5, 6, 7, 8, 9, -1), 8))
 
 
-# 20)
+# 7
 def splitevenodd(A):
     evenlist = []
     oddlist = []
@@ -191,7 +192,7 @@ for i in range(int(n)):
     A.append(k)
 splitevenodd(A)
 
-# 21)
+# 8
 string_ex = "12abcbacbaba344ab"
 # remove numbers
 string_result = ''.join([i for i in string_ex if not i.isdigit()])
@@ -206,7 +207,7 @@ for i in string_result:
         all_freq[i] = 1
 print(str(all_freq))
 
-# 22)
+# 9
 given_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 result_list = []
 for i in given_tuple:
